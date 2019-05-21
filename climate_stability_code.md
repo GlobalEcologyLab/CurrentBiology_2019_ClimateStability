@@ -71,7 +71,6 @@ paleoMasks <- stack(masks, quick = TRUE)
 outDir <- "./OutputRasters/sensAnalysis/"
 
 # Percentiles of interest
-# 5% either side of P10 and P25 for sensitivity testing
 timePercP10 <- seq(10 - (0.1*10), 10 + (0.1*10), by = 0.1)/100
 timePercP25 <- seq(25 - (0.1*25), 25 + (0.1*25), length.out = length(timePercP10))/100
 timePerc <- c(timePercP10, timePercP25)
@@ -182,8 +181,6 @@ for (pVal in timePerc) {
 }
 
 # Subset the directories based on these values
-# return 21 positions - 10 either side of the median.
-# length(P10) = 21, so a subset of P25 needs to equal 21
 P25Sub <- paste0("P", sub("\\.0", "", as.character(
   timePercP25[c(which(timePercP25 == median(timePercP25))-10):c(which(timePercP25 == median(timePercP25))+10)]*100)))
 P25Sub
