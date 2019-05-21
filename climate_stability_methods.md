@@ -1,7 +1,7 @@
 Climate stability methods
 ================
 
-<br/><br/> **Fordham, D., Brown, S., Wigley, T., Rahbek, C., 2019. Cradles of diversity: unlikely relics of regional climate stability. *Current Biology* (in press)** <br/><br/>
+<br/><br/> **Fordham, D., Brown, S., Wigley, T., Rahbek, C., 2019. Cradles of diversity: unlikely relics of regional climate stability. *Current Biology* (https://doi.org/10.1016/j.cub.2019.04.001)** <br/><br/>
 
 The R code necessary to re-produce the analysis is provided [here](climate_stability_code.md).
 
