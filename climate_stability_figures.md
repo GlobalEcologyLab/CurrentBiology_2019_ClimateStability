@@ -1,7 +1,7 @@
 Climate stability supporting figures
 ================
 
-<br/><br/> **Fordham, D., Brown, S., Wigley, T., Rahbek, C., 2019. Cradles of diversity: unlikely relics of regional climate stability. *Current Biology* (in press)** <br/><br/>
+<br/><br/> **Fordham, D., Brown, S., Wigley, T., Rahbek, C., 2019. Cradles of diversity: unlikely relics of regional climate stability. *Current Biology* (https://doi.org/10.1016/j.cub.2019.04.001)** <br/><br/>
 
 ### Supporting Figures
 ![](md_figs/SupportingFigure01.png)
